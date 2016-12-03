@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle elm-add-import",
+        "command": "elm-add-import:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "elm-add-import",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "elm-add-import:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

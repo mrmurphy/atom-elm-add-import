@@ -1,0 +1,8 @@
+{
+  "atom-workspace": {
+    "ctrl-cmd-i": "elm-add-import:activate"
+  },
+  "atom-workspace.elm-add-import" : {
+    "escape": "elm-add-import:deactivate"
+  }
+}

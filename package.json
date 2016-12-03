@@ -1,0 +1,22 @@
+{
+  "name": "atom-elm-add-import",
+  "main": "./lib/elm-add-import",
+  "version": "1.0.0",
+  "description": "An atom plugin for adding imports to an Elm file",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "elm-add-import:activate"
+  },
+  "repository": "https://github.com/splodingsocks/atom-elm-add-import",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "scripts": {
+    "build": "elm make --output lib/app.js src/Main.elm",
+    "build:debug": "elm make --debug --output lib/app.js src/Main.elm"
+  },
+  "dependencies": {
+  }
+}
