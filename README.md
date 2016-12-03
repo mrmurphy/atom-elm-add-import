@@ -2,7 +2,7 @@
 
 Quickly add an import to your Elm file without scrolling up!
 
-![Action shot](atom-elm-add-import.gif)
+![Action shot](https://cloud.githubusercontent.com/assets/1227109/20861181/98db3366-b946-11e6-8525-0099c8c3f5e2.gif)
 
 Default keybinding: `CMD-CTRL-I`
 
