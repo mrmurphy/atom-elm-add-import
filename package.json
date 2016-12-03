@@ -1,10 +1,9 @@
 {
   "name": "atom-elm-add-import",
   "main": "./lib/elm-add-import",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An atom plugin for adding imports to an Elm file",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "elm-add-import:activate"
   },
@@ -17,6 +16,5 @@
     "build": "elm make --output lib/app.js src/Main.elm",
     "build:debug": "elm make --debug --output lib/app.js src/Main.elm"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
