@@ -1,7 +1,7 @@
 {
   "name": "atom-elm-add-import",
   "main": "./lib/elm-add-import",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An atom plugin for adding imports to an Elm file",
   "keywords": [],
   "activationCommands": {
